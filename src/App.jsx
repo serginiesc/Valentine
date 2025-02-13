@@ -1,5 +1,5 @@
 import { useState } from "react";
-import lovesvg from "./assets/pxl2.JPG";
+import lovesvg from "./assets/PXLL.JPG";
 //import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
 import lovesvg2 from "./assets/PXL.JPG";
 
