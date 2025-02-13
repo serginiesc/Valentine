@@ -1,9 +1,8 @@
 import { useState } from "react";
-const lovesvg = "public/PXX.PNG";
-<img src={lovesvg} alt="Imagen" />
+import lovesvg from "./assets/PXL.svg";
+import lovesvg2 from "./assets/PXX.svg";
 //import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
-const lovesvg2 = "public/PXL.JPG";
-<img src={lovesvg2} alt="Imagen" />
+
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
