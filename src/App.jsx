@@ -1,6 +1,7 @@
 import { useState } from "react";
-import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
-import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
+import lovesvg from "./assets/PXL2.JPG";
+//import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
+import lovesvg2 from "./assets/PXL.JPG";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -14,24 +15,25 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Segura Changa??",
+      "Realmente segura??",
+      "Piensalo bien!",
+      "Ultima oportunidad!",
+      "segura q no?",
+      "Podrías arrepentirte de esto!",
+      "Piénsalo otra vez!",
+      "Estás absolutamente segura?",
+      "Esto podría ser un error!",
+      "Ten un poco de corazon!",
+      "No seas tan friaaaaaaaaa!",
+      "ya Cambio de opinión? n_n",
+      "No lo reconsiderarias?",
+      "Es tu respuesta final?",
+      "Me estás rompiendo el corazón :'''(",
+      "Es tu respuesta final?",
+      "Me estás rompiendo el corazoon ;(",
+      "Por favor? :( Me estás rompiendo el corazón"
+
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,7 +45,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            Okeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeey n_________n!!!
           </div>
         </>
       ) : (
@@ -61,7 +63,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Changa quieres ser mi valentinnnnnn?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -69,7 +71,7 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              SI
             </button>
             <button
               onClick={handleNoClick}
@@ -88,11 +90,9 @@ export default function Page() {
 const Footer = () => {
   return (
     <a
-      className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
-      target="__blank"
+
     >
-      Made with{" "}
+      CON AMOR PA TI CHANGA{" "}
       <span role="img" aria-label="heart">
         ❤️
       </span>
